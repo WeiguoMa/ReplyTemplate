@@ -1,0 +1,56 @@
+\documentclass{responseletter}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+% Number of replies
+\SetTimeOfReply{1}
+
+% Article Number: Number of the article
+% Article Title: Title of the article
+% Authors: Authors of the article
+% Article Info: Article number/first author last name
+\SetArticleInfo{Article Number}{Article Title}{Authors}{Article Info}
+
+\begin{document}
+
+% Re Editor
+\ReEditor{
+    Dear Editor,\\
+    \dots
+    }
+
+% Point-to-point
+\begin{PointToPoint}
+    \begin{Reply}{1}
+        \RespondComment{
+            First referee's first comment.
+            }{
+            \placeholder{Reply to this comment.}
+            }
+        \RespondComment{
+            First referee's Second comment.
+            }{
+            \placeholder{Reply to this comment.}
+            }
+    \end{Reply}
+
+    \begin{Reply}{2}
+        \RespondComment{
+            Second referee's First comment.
+            }{
+            \placeholder{Reply to this comment.}
+            }
+    \end{Reply}
+\end{PointToPoint}
+
+% Summary of Changes
+\begin{SummaryOfChanges}
+    \begin{enumerate}
+        \item First change;
+        \item Second change;
+        \item Third change.
+    \end{enumerate}
+\end{SummaryOfChanges}
+
+\end{document}
