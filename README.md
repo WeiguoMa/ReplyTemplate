@@ -150,10 +150,8 @@ To use this LaTeX class:
 2. Begin your LaTeX document with `\documentclass{responseletter}`.
 3. Structure your response letter according to the format outlined above.
 
+For further customization or issues, please refer to the `responseletter.cls` and `Re-Referees.tex` files.
+
 ## License
 
 This class file is created for personal or public use. No warranty or guarantee is provided; use it at your own risk.
-
----
-
-For further customization or issues, please refer to the `responseletter.cls` and `Re-Referees` files.
