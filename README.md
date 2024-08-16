@@ -157,4 +157,3 @@ This class file is created for personal or public use. No warranty or guarantee 
 ---
 
 For further customization or issues, please refer to the `responseletter.cls` and `Re-Referees` files.
-```
