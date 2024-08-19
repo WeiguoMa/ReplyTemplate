@@ -65,9 +65,14 @@
 \newenvironment{Reply}[1]{
     \def\refereenumber{#1}
     ------------------------------------------------------------------------\\
+    \ifx\TimeOfReply First
+    Report of the \ordinal{#1} Referee -- \ArticleIDAuthorLastName\\
+    \else
     \ordinal{\TimeOfReply{}} Report of the \ordinal{#1} Referee -- \ArticleIDAuthorLastName\\
+    \fi
     ------------------------------------------------------------------------\\
 }
+
 
 \newcommand{\RespondComment}[2]{
     Referee \#\refereenumber{} commented:\\
